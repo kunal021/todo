@@ -1,0 +1,56 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-create input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  font-size: 20px;
+}
+.todo-create button {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  min-width: 368px;
+  max-width: 750px;
+  word-wrap: break-word;
+  background-color: #fff;
+  color: #000;
+  font-size: 23px;
+  border: 2px solid #000;
+}
+
+.todo a {
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.todo a img {
+  width: 25px;
+  height: 25px;
+}
+
+.done {
+  text-decoration: line-through;
+}
